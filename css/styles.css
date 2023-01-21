@@ -298,6 +298,7 @@ body {
 .About-svg {
     width: 3em;
     height: 3em;
+    fill: var(--color_secundario);
 }
 .About-svg:hover {
     fill: var(--color_complementario);
