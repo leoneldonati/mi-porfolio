@@ -180,11 +180,19 @@ body {
 
 
 }
+.Container-title_proyects {
+  font-family: var(--fuente_secundaria);
+  font-size: 2.6em;
+  color: #fffaf0;
+  border-bottom: 1px solid #fffaf0;
+  padding-bottom: .6em;
+}
 .Container-img{
  border-radius: 2em;
  box-shadow: 0 0 2em #fffaf0;
  display: block;
  width: 90%;
+ max-width: 100%;
  height: auto;
 }
 .Container-description{
@@ -255,6 +263,11 @@ text-align: center;
   font-family: var(--fuente_secundaria);
   color: #fffaf0;
   font-size: large;
+}
+.About-p_title {
+  font-size: 1.9em;
+  color: #fffaf0;
+  font-family: var(--fuente_secundaria);
 }
 .About-ul {
   display: flex;

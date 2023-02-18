@@ -5,7 +5,7 @@ let title = document.title;
 
 window.addEventListener('blur', () => {
     title = document.title;
-    document.title = '¡Espera, no te vayas!  😮 ';
+    document.title = '¡Vuelve pronto!  😮 ';
 })
 
 window.addEventListener('focus', () => {
